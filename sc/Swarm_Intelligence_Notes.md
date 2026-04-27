@@ -80,7 +80,7 @@ $$P_{ij} = \frac{[\tau_{ij}]^{\alpha} \cdot [\eta_{ij}]^{\beta}}{\sum_{k} [\tau_
 | $\alpha$ | How much pheromone matters (higher = follow trails more) |
 | $\beta$ | How much heuristic matters (higher = prefer shorter edges more) |
 
-![ACO Formulas](images/aco_formulas.png)
+![ACO Formulas](aco_formulas.png)
 
 **Pheromone update after each iteration:**
 
@@ -92,7 +92,7 @@ $$\tau_{ij} \leftarrow \tau_{ij} + \Delta\tau_{ij}$$
 
 where $\rho \in (0, 1)$ is the evaporation rate and $\Delta\tau_{ij}$ is added by ants that used edge (i, j).
 
-![ACO Steps](images/aco_steps.png)
+![ACO Steps](aco_steps.png)
 
 ### Algorithm Steps
 
@@ -105,7 +105,7 @@ where $\rho \in (0, 1)$ is the evaporation rate and $\Delta\tau_{ij}$ is added b
 
 ### ACO Flowchart
 
-![ACO Flowchart](images/aco_flowchart.png)
+![ACO Flowchart](aco_flowchart.png)
 
 ### Key Concepts to Remember
 
@@ -184,7 +184,7 @@ $$x(t+1) = x(t) + v(t+1)$$
 
 ### PSO Flowchart
 
-![PSO Flowchart](images/pso_flowchart.png)
+![PSO Flowchart](pso_flowchart.png)
 
 ### Advantages vs Limitations
 
@@ -266,7 +266,7 @@ Higher fitness → higher probability of being selected by onlookers. This is **
 
 ### ABC Flowchart
 
-![ABC Flowchart](images/abc_flowchart.png)
+![ABC Flowchart](abc_flowchart.png)
 
 ### Feedback Mechanisms Summary
 
@@ -353,7 +353,7 @@ $$\text{Lévy} \sim t^{-\lambda}, \quad 1 < \lambda \leq 3$$
 
 ### CSA Flowchart
 
-![CSA Flowchart](images/csa_flowchart.png)
+![CSA Flowchart](csa_flowchart.png)
 
 ### Key Insight
 
